@@ -1,5 +1,5 @@
 {
     "name" : "my express App",
     "jwtPrivateKey":"express_demo_jwtPrivateKey",
-    "db":"mongodb+srv://orderUser:z99806z11@cluster0-z8ckw.mongodb.net/Cluster0?retryWrites=true&w=majority"
+    "db":"mongodb+srv://orderUser:z99806z11@cluster0.z8ckw.azure.mongodb.net/Cluster0"
 } 

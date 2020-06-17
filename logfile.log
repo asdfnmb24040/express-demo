@@ -597,3 +597,6 @@
 {"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-17T09:09:55.912Z"}
 {"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T09:10:19.844Z"}
 {"level":"info","message":"connect to mongodb+srv://orderUser:z99806z11@cluster0-z8ckw.mongodb.net/Cluster0?retryWrites=true&w=majority...","timestamp":"2020-06-17T09:10:24.902Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T09:34:53.050Z"}
+{"level":"info","message":"connect to mongodb+srv://orderUser:z99806z11@cluster0.z8ckw.azure.mongodb.net/Cluster0...","timestamp":"2020-06-17T09:34:58.159Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T09:35:27.377Z"}
