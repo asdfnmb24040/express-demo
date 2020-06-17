@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --watchAll --verbose --coverage",
+    "start":"node inde.js"
+  },
+  "engines": {
+    "node": "12.14.0"
   },
   "keywords": [],
   "author": "",
