@@ -1,0 +1,584 @@
+{"message":"something fail during startup","stack":"Error: something fail during startup\n    at Object.<anonymous> (C:\\Users\\armand\\express-demo\\index.js:97:7)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n    at internal/main/run_main_module.js:17:11","level":"error","timestamp":"2020-06-14T03:24:25.894Z"}
+{"message":"something fail during promise","stack":"Error: something fail during promise\n    at Object.<anonymous> (C:\\Users\\armand\\express-demo\\index.js:103:33)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n    at internal/main/run_main_module.js:17:11","level":"error","timestamp":"2020-06-14T03:38:48.176Z"}
+{"message":"something fail during promise","stack":"Error: something fail during promise\n    at Object.<anonymous> (C:\\Users\\armand\\express-demo\\index.js:103:33)\n    at Module._compile (internal/modules/cjs/loader.js:959:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)\n    at Module.load (internal/modules/cjs/loader.js:815:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:727:14)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)\n    at internal/main/run_main_module.js:17:11","level":"error","timestamp":"2020-06-14T03:38:59.938Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-14T04:47:08.774Z"}
+{"level":"info","message":"connected to MongoDb...","timestamp":"2020-06-14T04:47:08.810Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-14T04:47:20.668Z"}
+{"level":"info","message":"connected to MongoDb...","timestamp":"2020-06-14T04:47:20.702Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-14T04:49:38.974Z"}
+{"level":"info","message":"connected to MongoDb...","timestamp":"2020-06-14T04:49:39.007Z"}
+{"message":"fake err","stack":"Error: fake err\n    at C:\\Users\\armand\\express-demo\\routes\\order.js:33:11\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:13:9)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7","level":"error","timestamp":"2020-06-14T05:23:49.136Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-14T05:24:23.177Z"}
+{"level":"info","message":"connected to MongoDb...","timestamp":"2020-06-14T05:24:23.210Z"}
+{"message":"fake err","stack":"Error: fake err\n    at c:\\Users\\armand\\express-demo\\routes\\order.js:33:11\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (c:\\Users\\armand\\express-demo\\middleware\\auth.js:13:9)\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7","level":"error","timestamp":"2020-06-14T05:24:33.768Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:22:57.364Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-16T03:22:57.393Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:24:01.937Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:24:01.963Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:45:20.064Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:45:56.166Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:47:04.350Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:47:43.965Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:47:44.005Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:48:40.629Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:48:40.654Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:50:56.217Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:50:56.257Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:56:40.735Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:56:40.760Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:56:40.802Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:56:40.806Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:56:58.984Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:56:59.001Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:56:59.026Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:56:59.041Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:58:30.020Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:58:30.044Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:58:36.606Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T03:58:36.621Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:58:36.647Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T03:58:36.659Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:10:31.729Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:10:31.737Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:10:31.787Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:10:31.788Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:11:17.082Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:11:17.109Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:11:17.136Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:11:17.153Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:11:29.949Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:11:30.017Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:11:29.978Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:11:30.045Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:15:16.368Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:15:16.396Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:15:16.374Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:15:16.419Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:16:26.117Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:16:26.139Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:16:26.172Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:16:26.192Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:19:17.958Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:19:17.987Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:19:17.972Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:19:18.012Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:25:42.976Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:25:43.003Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:25:59.826Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:25:59.933Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:26:12.210Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:26:12.236Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:26:24.837Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:26:24.861Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:37:40.657Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:37:40.696Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:39:04.261Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:39:04.283Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:41:36.598Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:41:36.618Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:42:05.241Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:42:05.260Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:51:06.412Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:51:06.436Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:51:31.559Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:51:31.579Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:52:11.812Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:52:11.832Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:52:52.159Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:52:52.177Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:53:48.428Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:53:48.447Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:54:01.943Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:54:01.963Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:58:20.944Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-16T04:58:20.967Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:59:17.428Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:59:17.435Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:59:36.585Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:59:36.592Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T04:59:51.736Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T04:59:51.755Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:01:30.489Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:01:30.509Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:01:30.580Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:04:24.972Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:04:24.992Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-06-16T05:04:25.057Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:04:25.068Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:04:48.735Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:04:48.754Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:04:48.820Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:05:33.533Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:05:33.554Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:05:33.626Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:05:51.814Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:05:51.833Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:05:51.899Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:06:20.913Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:06:20.936Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:06:21.012Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:06:31.224Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:06:31.246Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:06:31.325Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:07:28.252Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:07:28.272Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:07:28.338Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:08:35.712Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:08:35.731Z"}
+{"message":"Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"123\"","kind":"ObjectId","value":"123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:08:35.796Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:09:08.554Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-16T05:09:08.580Z"}
+{"message":"Cast to ObjectId failed for value \"aa123\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"aa123\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (c:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (c:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"aa123\"","kind":"ObjectId","value":"aa123","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:09:31.932Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:10:14.877Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:10:14.897Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:13:50.337Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:13:50.357Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:14:33.301Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:14:33.322Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:15:06.130Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:15:06.154Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:15:29.124Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:15:29.146Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:15:48.580Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:15:48.600Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:16:34.527Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:16:34.548Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:16:43.573Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:16:43.601Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:21:42.984Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:21:43.004Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:21:43.075Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:23:13.272Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:23:13.292Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:23:25.438Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:23:25.458Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:23:58.185Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-16T05:23:58.208Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:24:34.802Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:24:34.823Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:25:15.147Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:25:15.169Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:25:57.120Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:25:57.139Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:26:21.088Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:26:21.109Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:27:34.693Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:27:34.716Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:28:21.941Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:28:21.963Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-06-16T05:28:22.037Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:29:09.105Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:29:09.128Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:29:32.241Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:29:32.262Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:33:43.638Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:33:43.657Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:41:16.390Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:41:16.413Z"}
+{"message":"req is not defined","stack":"ReferenceError: req is not defined\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\validObjectId.js:4:41)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:5:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (events.js:210:5)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:270:17)\n    at SendStream.onStatError (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:421:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:735:16)\n    at onstat (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:724:14)\n    at FSReqCallback.oncomplete (fs.js:158:21)","level":"error","timestamp":"2020-06-16T05:41:16.486Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:42:08.769Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:42:08.795Z"}
+{"message":"req is not defined","stack":"ReferenceError: req is not defined\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\validObjectId.js:4:42)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:5:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (events.js:210:5)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:270:17)\n    at SendStream.onStatError (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:421:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:735:16)\n    at onstat (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:724:14)\n    at FSReqCallback.oncomplete (fs.js:158:21)","level":"error","timestamp":"2020-06-16T05:42:08.874Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:44:03.640Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:44:03.670Z"}
+{"message":"req is not defined","stack":"ReferenceError: req is not defined\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\validObjectId.js:4:42)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:5:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (events.js:210:5)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:270:17)\n    at SendStream.onStatError (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:421:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:735:16)\n    at onstat (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:724:14)\n    at FSReqCallback.oncomplete (fs.js:158:21)","level":"error","timestamp":"2020-06-16T05:44:03.738Z"}
+{"message":"req is not defined","stack":"ReferenceError: req is not defined\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\validObjectId.js:4:42)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:5:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (events.js:210:5)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:270:17)\n    at SendStream.onStatError (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:421:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:735:16)\n    at onstat (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:724:14)\n    at FSReqCallback.oncomplete (fs.js:158:21)","level":"error","timestamp":"2020-06-16T05:44:03.758Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:45:06.394Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:45:06.413Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-06-16T05:45:06.494Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:46:25.420Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:46:25.440Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-06-16T05:46:25.533Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:54:35.658Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:54:35.678Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-06-16T05:54:35.759Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:55:56.125Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:55:56.149Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T05:57:31.338Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T05:57:31.358Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:21:44.003Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:21:44.023Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:22:31.892Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:22:31.913Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:29:44.769Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:29:44.789Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:30:01.303Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:30:01.324Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:30:18.422Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:30:18.444Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:31:07.144Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:31:07.164Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:32:10.160Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:32:10.180Z"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","timestamp":"2020-06-16T06:32:10.311Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:32:28.423Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:32:28.442Z"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","timestamp":"2020-06-16T06:32:28.561Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:33:59.876Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:33:59.896Z"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","timestamp":"2020-06-16T06:34:00.035Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:34:22.919Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:34:22.939Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:35:09.013Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:35:09.033Z"}
+{"message":"schema is not defined","stack":"ReferenceError: schema is not defined\n    at C:\\Users\\armand\\express-demo\\routes\\order.js:44:43\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\armand\\express-demo\\middleware\\auth.js:14:9)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at serveStatic (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:75:16)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:224:16)\n    at done (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","level":"error","timestamp":"2020-06-16T06:35:09.154Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:35:47.393Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:35:47.415Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:36:02.094Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:36:02.116Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:37:53.356Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:37:53.377Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:38:04.831Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:38:04.854Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:38:23.984Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:38:24.006Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:43:13.567Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:43:13.587Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:43:23.691Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:43:23.715Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:43:36.655Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:43:36.675Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:43:58.036Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:43:58.066Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:45:14.909Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:45:14.938Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:46:48.228Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:46:48.249Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:47:08.002Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:47:08.022Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:47:18.767Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:47:18.788Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T06:48:22.635Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T06:48:22.655Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T07:06:46.604Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T07:06:46.623Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T07:34:16.510Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T07:34:16.534Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:01:13.911Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:01:13.942Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:01:13.934Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:01:14.012Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:04:11.453Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:04:11.478Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:04:11.803Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:04:11.849Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:04:39.114Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:04:39.136Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:04:39.470Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:04:39.521Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:17:59.288Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:17:59.405Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:17:59.422Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:17:59.430Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:20:31.577Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:20:31.599Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-16T16:20:31.921Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-16T16:20:31.967Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:49:10.745Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:49:10.771Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:49:10.779Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:49:10.861Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:49:40.482Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:49:40.538Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:49:40.804Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:49:40.824Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:50:01.473Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:50:01.494Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:50:01.526Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:50:01.594Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:51:21.810Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:51:21.899Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:51:21.917Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:51:21.921Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:54:42.494Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:54:42.469Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:54:42.513Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:54:42.530Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-06-17T04:54:42.564Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:54:53.344Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:54:53.364Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:54:53.391Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Order\"\n    at model.Query.exec (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Users\\armand\\express-demo\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-06-17T04:54:53.447Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:54:53.468Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:55:02.257Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:55:02.285Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:55:02.303Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:55:02.314Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:56:04.498Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-17T04:56:04.520Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:56:30.219Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:56:30.268Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T04:56:30.274Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T04:56:30.284Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:08:16.978Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:08:17.000Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:08:16.994Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:08:17.061Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:10:45.697Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-17T06:10:45.728Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:11:02.429Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:11:02.456Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:11:02.478Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:11:02.545Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:21:09.159Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:21:09.294Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:21:09.363Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:21:09.431Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:22:40.652Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:22:40.676Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:22:40.752Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:22:40.853Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:22:50.777Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:22:50.811Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:23:03.141Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:23:03.184Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:23:45.638Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:23:45.668Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:24:15.378Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:24:15.414Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:24:15.419Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:24:15.511Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:25:23.124Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:25:23.164Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:25:23.696Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:25:23.765Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:26:11.882Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:26:11.924Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:26:11.959Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:26:12.062Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:26:56.080Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:26:56.117Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:26:56.135Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:26:56.150Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:27:19.590Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:27:19.613Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:28:19.630Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:28:19.654Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:28:19.652Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:28:19.716Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:31:32.114Z"}
+{"level":"info","message":"connect to mongodb://localhost/order...","timestamp":"2020-06-17T06:31:32.137Z"}
+{"message":"Failed to lookup view \"index\" in views directory \"../views\"","stack":"Error: Failed to lookup view \"index\" in views directory \"../views\"\n    at Function.render (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\application.js:580:17)\n    at ServerResponse.render (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\response.js:1012:7)\n    at c:\\Users\\armand\\express-demo\\routes\\home.js:5:9\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (c:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at c:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (c:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)","view":{"defaultEngine":"pug","ext":".pug","name":"index","root":"../views"},"level":"error","timestamp":"2020-06-17T06:31:52.059Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:32:29.102Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:32:29.146Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:32:29.151Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:32:29.165Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:32:56.300Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:32:56.326Z"}
+{"message":"Failed to lookup view \"index\" in views directory \"../views\"","stack":"Error: Failed to lookup view \"index\" in views directory \"../views\"\n    at Function.render (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\application.js:580:17)\n    at ServerResponse.render (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\response.js:1012:7)\n    at C:\\Users\\armand\\express-demo\\routes\\home.js:5:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\armand\\express-demo\\startup\\routes.js:30:9\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at log (C:\\Users\\armand\\express-demo\\middleware\\logger.js:3:5)\n    at newFn (C:\\Users\\armand\\express-demo\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (events.js:210:5)\n    at SendStream.error (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:270:17)\n    at SendStream.onStatError (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:421:12)\n    at next (C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:763:28)\n    at C:\\Users\\armand\\express-demo\\node_modules\\send\\index.js:771:23\n    at FSReqCallback.oncomplete (fs.js:158:21)","view":{"defaultEngine":"pug","ext":".pug","name":"index","root":"../views"},"level":"error","timestamp":"2020-06-17T06:32:56.812Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:33:37.788Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:33:37.808Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:33:47.835Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:33:47.857Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:34:59.286Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:34:59.349Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:35:06.320Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:35:06.380Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:35:06.407Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:35:06.423Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:36:14.137Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:36:14.187Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:36:14.491Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:36:14.513Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:36:37.437Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:36:37.491Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:36:37.775Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:36:37.795Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:37:26.040Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:37:26.060Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:37:26.076Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:37:26.146Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:39:59.595Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:39:59.615Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:40:25.175Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:40:25.194Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:41:11.520Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:41:11.539Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:41:20.717Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:41:20.737Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:41:53.648Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:41:53.684Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:42:05.409Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:42:05.429Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:42:20.205Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:42:20.228Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:42:38.650Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:42:38.671Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:42:52.787Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:42:52.807Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:43:22.230Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:43:22.252Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:43:33.033Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:43:33.052Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:43:48.657Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:43:48.676Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:43:53.315Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:43:53.335Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:44:39.510Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:44:39.530Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:44:54.358Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:44:54.380Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:45:11.502Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:45:11.522Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:46:03.869Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:46:03.922Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:46:03.931Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:46:03.947Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:48:11.126Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:48:11.192Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:48:11.495Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:48:11.516Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:48:34.171Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:48:34.192Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:48:34.514Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:48:34.563Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:19.783Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:19.822Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:19.833Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:19.838Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:47.981Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:48.002Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:48.015Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:48.082Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:56.840Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:56.887Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:50:57.250Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:50:57.271Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:52:18.599Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:52:18.620Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:52:18.964Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:52:19.009Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:54:22.118Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:54:22.165Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:54:22.174Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:54:22.180Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:54:29.724Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:54:29.746Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:54:29.774Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:54:29.842Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:55:06.364Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:55:06.410Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:55:06.417Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:55:06.425Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:56:32.830Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:56:32.883Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:56:32.895Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:56:32.900Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:56:38.956Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:56:38.978Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:56:38.988Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:56:39.053Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:57:25.293Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:57:25.337Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:57:49.066Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:57:49.089Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:57:49.099Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:57:49.175Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:58:12.592Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:58:12.613Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:58:38.663Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:58:38.683Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:58:58.593Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:58:58.614Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T06:59:15.631Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T06:59:15.681Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:00:06.681Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:00:06.702Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:00:51.438Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:00:51.458Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:00:51.769Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:00:51.818Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:01.263Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:01.283Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:01.284Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:01.343Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:19.058Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:19.113Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:19.119Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:19.127Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:45.503Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:45.524Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:45.858Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:45.909Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:54.568Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:54.588Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:01:54.897Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:01:54.951Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:02:39.034Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:02:39.085Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:02:39.098Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:02:39.122Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:05:48.096Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:05:48.119Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:05:48.115Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:05:48.180Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:06:12.638Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:06:12.680Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:06:12.692Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:06:12.693Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:06:40.027Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:06:40.078Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:06:40.095Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:06:40.105Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:06:48.953Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:06:48.974Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:07:08.327Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:07:08.345Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:07:25.997Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:07:26.042Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:07:26.055Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:07:26.057Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:08:02.892Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:08:02.964Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:08:02.963Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:08:02.978Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:09:26.201Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:09:26.221Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:09:26.218Z"}
+{"message":"unsupported charset \"UTF-8\"","stack":"UnsupportedMediaTypeError: unsupported charset \"UTF-8\"\n    at C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\read.js:83:18\n    at invokeCallback (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:224:16)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","name":"UnsupportedMediaTypeError","charset":"utf-8","type":"charset.unsupported","level":"error","timestamp":"2020-06-17T07:09:26.267Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:09:26.283Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:18:01.132Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:18:01.151Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:18:15.171Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:18:15.190Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:18:15.548Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:18:15.594Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:18:27.976Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:18:28.049Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:18:28.069Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:18:28.090Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:05.912Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:05.933Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:06.264Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:06.317Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:13.827Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:13.854Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:13.869Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:13.880Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:23.925Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:23.945Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:23.962Z"}
+{"message":"unsupported charset \"UTF-8\"","stack":"UnsupportedMediaTypeError: unsupported charset \"UTF-8\"\n    at C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\read.js:83:18\n    at invokeCallback (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:224:16)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","name":"UnsupportedMediaTypeError","charset":"utf-8","type":"charset.unsupported","level":"error","timestamp":"2020-06-17T07:24:24.010Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:24.027Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:57.658Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:57.678Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:24:57.681Z"}
+{"message":"unsupported charset \"UTF-8\"","stack":"UnsupportedMediaTypeError: unsupported charset \"UTF-8\"\n    at C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\read.js:83:18\n    at invokeCallback (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:224:16)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","name":"UnsupportedMediaTypeError","charset":"utf-8","type":"charset.unsupported","level":"error","timestamp":"2020-06-17T07:24:57.725Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:24:57.741Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:25:44.792Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:25:44.813Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:25:44.813Z"}
+{"message":"unsupported charset \"UTF-8\"","stack":"UnsupportedMediaTypeError: unsupported charset \"UTF-8\"\n    at C:\\Users\\armand\\express-demo\\node_modules\\body-parser\\lib\\read.js:83:18\n    at invokeCallback (C:\\Users\\armand\\express-demo\\node_modules\\raw-body\\index.js:224:16)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)","name":"UnsupportedMediaTypeError","charset":"utf-8","type":"charset.unsupported","level":"error","timestamp":"2020-06-17T07:25:44.858Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:25:44.875Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:26:41.830Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:26:41.863Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:26:42.058Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:26:42.159Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:27:11.623Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:27:11.744Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:27:11.840Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:27:11.867Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:27:18.459Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:27:18.525Z"}
+{"level":"info","message":"正在聆聽port 3000","timestamp":"2020-06-17T07:27:18.846Z"}
+{"level":"info","message":"connect to mongodb://localhost/order_tests...","timestamp":"2020-06-17T07:27:18.940Z"}
